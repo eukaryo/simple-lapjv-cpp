@@ -26,7 +26,7 @@ private:
 		// v          - dual variables, column reduction numbers
 
 	{
-		boolean unassignedfound;
+		bool unassignedfound;
 		row  i, imin, numfree = 0, prvnumfree, f, i0, k, freerow, *pred, *free_;
 		col  j, j1, j2, endofpath, last, low, up, *collist, *matches;
 		cost min_, h, umin, usubmin, v2, *d;
