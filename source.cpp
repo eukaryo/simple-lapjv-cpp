@@ -1,3 +1,9 @@
+#include<vector>
+#include<algorithm>
+#define REP(i, a, b) for (int i = (int)(a); i < (int)(b); i++)
+#define rep(i, a) REP(i, 0, a)
+using namespace std;
+
 class lapjv {
 
 private:
